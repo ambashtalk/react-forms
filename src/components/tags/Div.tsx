@@ -10,6 +10,7 @@ export const RowFlex = styled(Div)`
     display:flex;
     flex-direction: row;
 `
+
 export const ColFlex = styled(Div)`
     display:flex;
     flex-direction: column

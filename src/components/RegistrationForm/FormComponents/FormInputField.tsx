@@ -13,6 +13,7 @@ type proptype = {
 
 const FormColFlex = styled(ColFlex)`
     margin: 0 0.4rem;
+    flex: 1;
 `;
 
 const FormInputField: React.FC<proptype> = (props) => (

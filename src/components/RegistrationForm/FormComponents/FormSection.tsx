@@ -8,5 +8,6 @@ flex-direction: column;
 color: white;
 justify-content: center;
 align-items: center;
+padding: 5rem 1rem 0;
 `
 export default FormSection;
