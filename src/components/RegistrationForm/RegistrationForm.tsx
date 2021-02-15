@@ -32,6 +32,12 @@ const FormPage = styled(RowFlex)`
 `;
 
 
+
+const clickedNext = (event: MouseEvent) => {
+  console.log("Next Button cllicked");
+  
+};
+
 const RegistrationForm = () => {
   return (
     <FormSection bg={formBackground}>
@@ -53,12 +59,11 @@ const RegistrationForm = () => {
               <FormInputField id="phno" type="number" label="Phone" />
             </FormRow>
             <ButtonRow>
-              <FormButton>Next</FormButton>
+              <FormButton  >Next</FormButton>
             </ButtonRow>
           </FormFieldSet>
 
-          <FormFieldSet display="none">
-          {/* <FormFieldSet> */}
+          <FormFieldSet>
             <FormInputField id="email" type="email" label="Email" />
             <FormInputField id="username" type="text" label="Username" />
             <FormInputField id="password" type="password" label="Password" />
