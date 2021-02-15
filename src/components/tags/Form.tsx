@@ -35,8 +35,13 @@ outline: none;
 border-radius: 0.5rem;
 background-color: teal;
 color: white;
+font-size: 1.5rem;
+width: 10rem;
 &:hover {
-    background-color: skyblue;
+    background-color: #143032;
 };
 `
 
+export const FieldSet = styled.fieldset`
+
+`
