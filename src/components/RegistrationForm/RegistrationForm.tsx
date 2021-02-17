@@ -149,7 +149,7 @@ const RegistrationForm = () => {
                 type="text"
                 label="Name"
                 disabled={true}
-                value={formData.fname + formData.cname}
+                value={formData.fname + " " + formData.lname}
               />
             </FormRow>
             <FormRow>
