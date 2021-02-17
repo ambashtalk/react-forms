@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
 import RegistrationForm from "../components/RegistrationForm/RegistrationForm";
-import "./App.css";
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`

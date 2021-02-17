@@ -7,7 +7,7 @@ const StyledButton = styled(Button)`
 `;
 
 type proptype = {
-  clicked?: MouseEventHandler;
+  clicked?: MouseEventHandler<HTMLButtonElement>;
 }
 
 const FormButton: React.FC<proptype> = (props) => {
